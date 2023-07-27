@@ -1,0 +1,71 @@
+   0 pwd
+   1 ls --help
+   2 ls -la 
+   3 ls -la /
+   4 ls -al /bin/
+   5 clear
+   6 ls -al
+   7 ls -al /
+   8 ls -al /proc/
+   9 clear
+  10 ls -al /
+  11 ls -al /srv/
+  12 ls -al /sys
+  13 ls -al /usr/
+  14 clear 
+  15 clear
+  16 touch file.txt
+  17 ls -l
+  18 ls --help
+  19 ls 
+  20 ls -l
+  21 ls -al
+  22 touch /home/file1.txt
+  23 pwd
+  24 cd /opt/
+  25 pwd
+  26 cd /home/
+  27 cd 
+  28 pwd
+  29 cd ..
+  30 ls -al
+  31 pwd
+  32 cd 
+  33 mkdir /home/DIR
+  34 ls -al /home/
+  35 mkdir -p /home/DIR1/DIR2
+  36 ls -al /home/
+  37 ls -al /home/DIR1
+  38 tree /home
+  39 touch /home/DIR1/DIR2/file3.txt
+  40 tree /home
+  41 ls -al
+  42 cp /root/file.txt /home/DIR1/DIR2/file.txt
+  43 ls -l /home/DIR1/DIR2/
+  44 cp /root/file.txt /home/DIR1/DIR2/file4.txt
+  45 ls -al /home/DIR1/DIR2/
+  46 ls -l
+  47 mv /home/DIR1/DIR2/file3.txt /root/file3.txt 
+  48 ls -l
+  49 ls -l /home/DIR1/DIR2/
+  50 ls -al
+  51 mv file3.txt file4.txt
+  52 ls -al
+  53 rm file4.txt 
+  54 ls -al
+  55 ls /home/
+  56 ls -l /home/DIR1/DIR2/
+  57 rm /home/DIR1
+  58 rm -r /home/DIR1
+  59 ls /home/
+  60 rm -rf /home/DIR/
+  61 ls -al
+  62 ls -al /
+  63 mkdir -p /home/Dir1/Dir2/Dir3
+  64 mkdir -p /home/Dir1/Dir2/Dir3/Dir4
+  65 cd /var/
+  66 ls -a
+  67 cd 
+  68 cd /var/log/
+  69 history
+  70 history >> history-2023-07-20.txt
